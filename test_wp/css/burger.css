@@ -1,0 +1,276 @@
+#menu__toggle {
+    opacity: 0;
+    left: 322px;
+    top: 15px;
+    position: relative;
+
+}
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 31px;
+    right: 70px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 21;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+
+
+
+
+/* контейнер меню */
+.menu__box {
+
+  display: grid;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 20pxpx;
+list-style: none;
+  text-align: center;
+ background: #ffffff;
+box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+z-index: 20;
+}
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+    z-index: 20;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #F8F8F8;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+  width: 50%;
+}
+.menu__btn > span::after {
+content: '';
+    width: 45px;
+    top: 9px;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+width: %
+}
+.menu__box {
+  transition-duration: .25s;
+
+}
+.menu__item {
+  transition-duration: .25s;
+
+}
+.burger_menu_main {
+    width: 100%;
+   height: 100%;
+    display: flex;
+}
+
+.first_block {
+    width: 40%;
+    height: 100%;
+    background: #1F2335;
+    display: grid;
+    align-content: space-evenly;
+}
+
+ul {
+
+    list-style: none;
+    /*убираем маркеры списка*/
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    /*убираем левый отступ, равный 40px*/
+
+}
+
+.first_block li {
+    width: 40%;
+    height: 100px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+    position: relative;
+    display: grid;
+    transition: all 0.8s ease 0s;
+
+}
+
+.first_block a {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+    margin-top: 36px;
+    color: #FFFFFF;
+}
+
+.first_block a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -20px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.first_block a:hover:after {
+    width: 250px;
+    left: 0;
+}
+
+.first_midle {
+    width: 37%;
+    height: 100%;
+    background: rgba(31, 35, 53, 0.7);
+   display: grid;
+    align-content: space-evenly;
+}
+
+
+.first_midle li {
+   width: 40%;
+    height: 50px;
+ display: grid;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    transition: all 0.8s ease 0s;
+
+}
+
+.first_midle a {
+    text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+color: #D3DCE6;
+}
+
+.first_midle a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.first_midle a:hover:after {
+    width: 220px;
+    left: 0;
+}
+
+
+.first_second {
+    width: 23%;
+    height: 100%;
+    background: rgba(31, 35, 53, 0.5);
+   display: grid;
+    align-content: space-evenly;
+}
+
+
+
+.first_second li {
+    width: 60%;
+    height: 20px;
+     display: grid;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    text-align: left;
+}
+
+.first_second a {
+    text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #D3DCE6;
+}
+
+.first_second a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.first_second a:hover:after {
+    width: 90%;
+    left: 0;
+}
+
+
+
+

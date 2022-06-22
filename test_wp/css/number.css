@@ -1,0 +1,54 @@
+#counter{
+width: 80%;
+height: 40%;
+display: flex;
+
+}
+
+.b1{
+width: 200px;
+margin-right: 80px;
+padding: 20px
+}
+
+.number {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+}
+
+.text{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+position: relative;
+top: 10px;
+}
+@media (max-width:1500px) {
+.b1{
+width: 200px;
+margin-right: 0;
+padding: 20px
+}
+#counter{
+width: 80%;
+height: 40%;
+display: flex;
+position: relative;
+left: 10%;
+
+}
+
+}

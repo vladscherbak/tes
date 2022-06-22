@@ -1,0 +1,122 @@
+.wraper {
+    max-width: 100%;
+    height: 648px;
+    background: #E8F1FF;
+
+}
+
+
+.container {
+    width: 100;
+    height: 100%;
+
+}
+
+img {
+    margin: auto;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 10;
+
+}
+
+.slick-prev {
+    left: 0;
+
+}
+
+.slick-next {
+    right: 0;
+}
+
+.element-item {
+    border: 1px solid #fff;
+    width: 320px !important;
+}
+
+.button-group .active .btn {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+
+.element-item span {
+    display: block;
+    width: 100%;
+    border: 2px solid #1F2335;
+    content: '';
+    position: relative;
+    top: 230px;
+    right: 0;
+    z-index: 1;
+}
+
+
+.slick,
+.slick-wrap {
+    /* height: 200px !important; */
+    position: relative;
+}
+
+.mCustomScrollBox + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCustomScrollBox + .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -50px !important;
+}
+
+.element-item p {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F2335;
+    position: absolute;
+    left: 200px;
+    bottom: 3px;
+}
+
+.block_element h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F2335;
+position: relative;
+    bottom: 20px;
+}
+
+.block_element p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F2335;
+}
+
+.block_element {
+
+    width: 387px;
+    height: auto;
+    position: relative;
+    top: 150px;
+    left: 20px;
+}

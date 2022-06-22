@@ -1,0 +1,1007 @@
+.header {
+    display: block;
+    max-width: 100%;
+    height: 710px;
+    background-image: url(/img/Rectangle592.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+
+}
+
+
+.line_mid:before {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: fixed;
+    transform: rotate(90deg);
+    z-index: 20;
+    top: 600px;
+}
+
+.line_left:before {
+    display: block;
+    width: 92.5%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: fixed;
+    transform: rotate(90deg);
+    right: 46%;
+    z-index: 20;
+    top: 600px;
+
+}
+
+.line_right:before {
+    display: block;
+    width: 92.5%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: fixed;
+    transform: rotate(90deg);
+    left: 46%;
+    z-index: 20;
+    top: 600px;
+}
+
+.header:after {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: absolute;
+    top: 96px;
+
+}
+
+.main_header {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_conteiner {
+    width: 10%;
+    height: auto;
+    position: fixed;
+    z-index: 12;
+
+}
+
+.logo_conteiner .logo-0 {
+    display: block;
+}
+
+.logo_conteiner .logo-1 {
+    display: none;
+
+
+}
+
+
+.logo-0 {
+    margin-top: 22px;
+    margin-left: 44px;
+
+}
+
+.logo-1 {
+    margin-top: 22px;
+    margin-left: 44px;
+
+
+}
+
+.logo_conteiner.out .logo-0 {
+    display: none;
+}
+
+.logo_conteiner.out .logo-1 {
+    display: block;
+}
+
+
+
+
+
+
+
+.article {
+    position: relative;
+    width: 22%;
+    height: 15%;
+    padding: 20px;
+    top: 378px;
+    margin-left: 180px
+}
+
+.article h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.article span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.article span:after {
+    display: block;
+    width: 130px;
+    height: 8px;
+    background: #6AA3FC;
+    content: '';
+    position: absolute;
+    top: 118px;
+}
+
+.article h2 {
+    margin-top: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #F8F8F8;
+}
+
+/*ВТОРОЙ БЛОК*/
+.information_block_architecture {
+    display: block;
+    width: 100%;
+    height: 550px;
+}
+
+.block_architecture {
+    width: 480px;
+    height: auto;
+    display: grid;
+    position: relative;
+    float: right;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.block_architecture h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    bottom: 6px;
+    position: relative;
+    color: #1F2335;
+}
+
+.block_architecture p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #6B6B6B;
+
+}
+
+.block_architecture a {
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #6AA3FC;
+    margin-top: 40px;
+}
+
+.block_architecture a:hover {
+    color: #94beff;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+}
+
+
+.block_architecture object {
+    position: relative;
+    left: 5px;
+}
+
+.btn_src {
+    margin-top: 48px;
+    width: 100%;
+    height: 57px;
+    border-radius: 0px;
+    color: #1F2335;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #E8F1FF;
+    transition-delay: 0.2s;
+    transition-duration: .2s;
+}
+
+.btn_src:hover {
+    color: #E8F1FF;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+    background: #1F2335;
+}
+
+/*СЕКЦИЯ 3*/
+
+.information_block_architecture_second {
+
+    width: 100%;
+    height: 783px;
+    background: #1F2335;
+}
+
+.block_architecture_second {
+    width: 480px;
+    height: auto;
+    display: grid;
+    position: relative;
+    margin-left: 10%;
+    top: 200px;
+
+}
+
+.btn_src_second {
+    margin-top: 48px;
+    width: 100%;
+    height: 57px;
+    border-radius: 0px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #1F2335;
+    transition-delay: 0.2s;
+    transition-duration: .2s;
+}
+
+.btn_src_second:hover {
+    color: #1F2335;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+    background: #E8F1FF;
+}
+
+.block_architecture_second h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    bottom: 6px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.block_architecture_second p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.block_architecture_second a {
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #6AA3FC;
+    margin-top: 40px;
+}
+
+.block_architecture_second a:hover {
+    color: #94beff;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+}
+
+.button {
+    width: 100%;
+    height: 87px;
+    display: block;
+    justify-content: center;
+}
+
+.svg_section {
+    float: right;
+    position: relative;
+    bottom: 333px;
+
+}
+
+
+/*блок 3*/
+.zoom_slider_conteiner {
+    width: 100%;
+    height: 855px;
+    display: flex;
+    background: #1F2335;
+}
+
+.zoom_slider_main_text {
+    width: 100%;
+    height: 100%
+}
+
+.svg_sectio_bootom {
+    float: right;
+    position: relative;
+    bottom: -470px;
+
+}
+
+
+
+.zoom_slider_switsh {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.img_second {
+    width: 15%;
+    height: 76%;
+    position: relative;
+    bottom: 115px;
+
+}
+
+.mane_zoom {
+    width: 170px;
+    height: 727px;
+}
+
+.exmpl {
+    overflow: hidden;
+
+}
+
+.exmpl img {
+
+    height: 80%;
+    transform: scale(2.2);
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+    position: relative;
+    left: 80px;
+}
+
+
+.img_main {
+    width: 730px;
+    height: 865px;
+    position: relative;
+    bottom: 128px;
+    /* object-fit: contain; */
+    right: 35px;
+}
+
+.slider_text_conteiner {
+    width: 50%;
+    height: 100%;
+    display: grid;
+}
+
+.slider_text_conteiner {
+    width: 40%;
+    margin: 0 auto
+}
+
+.slider_text {
+    width: 60%;
+    height: auto;
+
+}
+
+
+
+.slider_text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 20px 0 0;
+}
+
+.slider_text h2 {
+    margin-top: 120px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #F8F8F8;
+    position: relative;
+
+}
+
+.article_slider {
+    position: relative;
+    width: 55%;
+    height: 15%;
+    padding: 20px;
+    top: 178px;
+    margin-left: 40px;
+    z-index: 2;
+
+}
+
+.article_slider h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.article_slider span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.article_slider span:after {
+    display: block;
+    width: 130px;
+    height: 8px;
+    background: #6AA3FC;
+    content: '';
+    position: absolute;
+    top: 118px;
+}
+
+.article_slider h2 {
+    margin-top: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #F8F8F8;
+}
+
+.zoom_slider_conteiner:after {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: absolute;
+    top: 3000px;
+
+}
+
+/*Блок счетчика*/
+.counter_conteiner {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    background: #1F2335;
+
+}
+
+.counter_conteiner:after {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: absolute;
+    top: 3090px;
+
+}
+
+.counter_first_conteiner {
+    width: 42%;
+    height: 100%;
+    display: grid;
+    margin-left: 7.5%
+}
+
+
+
+.article_conteiner {
+    position: relative;
+    width: 40%;
+    height: 15%;
+    padding: 20px;
+    top: 178px;
+    margin-left: 20px;
+    z-index: 2;
+
+}
+
+.article_conteiner h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.article_conteiner span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.article_conteiner span:after {
+    display: block;
+    width: 130px;
+    height: 8px;
+    background: #6AA3FC;
+    content: '';
+    position: absolute;
+    top: 118px;
+}
+
+.article_conteiner h2 {
+    margin-top: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #F8F8F8;
+}
+
+
+.count_logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    position: relative;
+    top: 100px
+}
+
+.counter_conteiner:before {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    content: '';
+    position: absolute;
+    top: 3770px;
+
+}
+
+.counter_second_conteiner {
+    width: 40%;
+    height: 100%;
+    display: grid;
+    margin: 0 auto;
+}
+
+
+.counter_text {
+    width: 72%;
+    height: 71%;
+    position: relative;
+    top: 106px;
+    right: -200px;
+}
+
+
+
+
+.counter_second_conteiner p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 20px 0 0;
+}
+
+.counter_second_conteiner h2 {
+    margin-top: 120px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #F8F8F8;
+    position: relative;
+}
+
+
+/*5 блок*/
+
+.ikon_main {
+    width: 100%;
+    height: 352px;
+    background: #E8E8E8;
+
+}
+
+.icon_text {
+    width: 70%;
+    height: auto;
+
+}
+
+.float {
+    width: 40%;
+    height: 50%;
+    float: right;
+    position: relative;
+    top: 90px;
+}
+
+.fa-icon {
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 44px;
+    display: flex;
+}
+
+.fa-icon a {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+
+}
+
+
+.icon {
+    margin-right: 33px;
+    display: flex;
+}
+
+.ikon_main h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    /* Dark blue */
+
+    color: #1F2335;
+
+}
+
+.ikon_main p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    color: #1F2335;
+}
+
+.prelouder_slider {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+}
+
+.prelouder_slider h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #1F2335;
+    ;
+}
+
+.prelouder_slider span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    color: #1F2335;
+    ;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.prelouder_conteiner span:before {
+    display: block;
+    width: 130px;
+    height: 8px;
+    background: #6AA3FC;
+    content: '';
+    position: absolute;
+    top: 100px
+}
+
+.prelouder_conteiner {
+    width: 20%;
+    height: 300px;
+    margin-left: 10%;
+    position: relative;
+    top: 26px;
+}
+
+@media (max-width:1500px) {
+    .article_slider h1 {
+        font-size: 17px;
+    }
+
+.counter_text {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    right: -200px;
+}
+    .article_slider span {
+        font-size: 22px;
+    }
+
+    .line_left:before {
+        right: 44%;
+
+    }
+    .line_right:before {
+        right: 44%;
+
+    }
+
+    .block_architecture_second {
+        width: 341px;
+        margin-left: 20%;
+    }
+
+    .line_mid:before {
+
+        width: 100%;
+    }
+
+    .menu__btn {
+        right: 50px;
+    }
+
+    .article {
+        margin-left: 227px;
+    }
+
+    .footer-section_list {
+        width: 81%;
+        margin-left: 30%
+    }
+
+    .img_main {
+        width: 733px;
+        height: 820px;
+        position: relative;
+        bottom: 128px;
+        /* object-fit: contain; */
+        right: 0px;
+    }
+
+.article_conteiner {
+    position: relative;
+    width: 60%;
+    height: 15%;
+    padding: 19px;
+    top: 30%;
+    margin-left: 14%;
+    z-index: 2;
+}
+.count_logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 17%;
+    position: relative;
+    top: 100px;
+}
+
+}
+
+@media (max-width:1200px) {
+    article_slider h1 {
+        font-size: 10px;
+    }
+
+    .slider_text {
+        width: 76%;
+    }
+
+    .article {
+        width: 30%;
+
+    }
+
+    .information_block_architecture {
+        height: 480px;
+
+    }
+
+    .block_architecture_second {
+        width: 240px;
+        margin-left: 18%;
+    }
+
+    .line_right:before {
+        top: 510px;
+        width: 100%;
+        left: 38%;
+    }
+
+    .line_mid:before {
+        top: 510px;
+        width: 100%;
+    }
+
+    .line_left:before {
+        right: 38%;
+        top: 510px;
+    }
+
+    .footer-section_list {
+        width: 61%;
+        margin-left: 20%
+    }
+
+    .img_main {
+        width: 733px;
+        height: 803px;
+        position: relative;
+        bottom: 128px;
+        /* object-fit: contain; */
+        right: 0px;
+    }
+
+
+}
+
+@media (max-width:1000px) {
+    .block_architecture_second {
+        width: 285px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .article {
+        top: 247px;
+        margin-left: 72px;
+    }
+
+    .article h1 {
+        font-size: 32px;
+
+    }
+
+    .article span {
+
+        font-size: 32px;
+
+
+    }
+
+    .article span:after {
+        height: 6px;
+
+    }
+
+    .article h2 {
+        font-size: 12px;
+
+    }
+
+    .line_left:before {
+        right: 38%;
+
+    }
+
+    .information_block_architecture {
+        width: 100%;
+
+    }
+
+    .article {
+        margin-left: 109px;
+    }
+}

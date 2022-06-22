@@ -1,0 +1,214 @@
+.call_back {
+    width: 100%;
+    height: 472px;
+    background: #6AA3FC;
+    display: flex;
+}
+
+.call_back_text {
+    width: 35%;
+    height: 100%;
+    display: grid;
+    margin-left: 180px;
+
+
+
+}
+
+.call_back_text textarea {
+    background: #4E89E7;
+    width: 480px;
+    height: 179px;
+    padding: 7px;
+resize: none;
+}
+
+.obratnuj-zvonok {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.call_back_text h2 {
+    width: 100%;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F2335;
+    position: relative;
+    top: 90px;
+
+
+
+}
+
+.call_back_text p {
+    width: 100%;
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    /* Dark blue */
+
+    color: #1F2335;
+    position: relative;
+    top: 10px;
+}
+
+.form_call_back {
+    width: 30%;
+    height: 80%;
+    display: grid;
+    margin-left: 13%;
+    margin-top: 90px;
+}
+
+.form_call_back input {
+    width: 480px;
+    height: 54px;
+    background: #4E89E7;
+    padding-left: 5px;
+    border: none;
+}
+
+.knopka_call_back input {
+    background: #6AA3FC;
+    width: 200px;
+    height: 58px;
+    border: 2px solid #1F2335;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+    /* Dark blue */
+
+    color: #1F2335;
+    float: right;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+}
+
+.knopka_call_back input:hover{
+background: #1F2335;
+color: #6AA3FC;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+
+
+}
+.knopka_send_file {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.knopka_file {
+display: flex;
+    width: 50%;
+    height: 20px;
+    position: relative;
+    top: 20px
+
+}
+.knopka_file label{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+
+/* Dark blue */
+
+color: #1F2335;
+cursor: pointer;
+}
+.knopka_file img{
+    width: 20px;
+    margin: 0;
+}
+
+@media(max-width:1500px) {
+    .form_call_back {
+    width: 21%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 7%;
+    }
+.call_back_text {
+    width: 35%;
+    height: 100%;
+    display: grid;
+    margin-left: 16%;;
+}
+.call_back_text textarea {
+
+    width: 405px;
+
+}
+.form_call_back {
+    width: 21%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 2%;
+}
+}
+
+
+
+@media(max-width:1200px) {
+    .call_back{
+height: 900px
+}
+
+.obratnuj-zvonok {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+    .form_call_back {
+     width: 35%;
+    height: auto;
+    margin: 0 auto;
+    }
+.call_back_text {
+    width: 35%;
+    height: 100%;
+    display: grid;
+
+    margin: 0 auto;
+}
+.call_back_text textarea {
+
+    width: 480px;
+
+}
+
+}
+

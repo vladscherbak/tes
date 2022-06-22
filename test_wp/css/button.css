@@ -1,0 +1,63 @@
+.button {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    background: #E8E8E8;
+}
+
+
+.button_svich {
+    display: flex;
+    list-style: none;
+
+}
+
+ul li {
+    font-size: 14px;
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn_first {
+    width: 509px;
+    border: none;
+    height: 95%;
+    background: #E8E8E8;
+    padding: 33px;
+}
+
+li.active {
+     background: #FFFFFF;
+    transition-delay: 0.1s;
+    transition-duration: .1s;
+}
+
+.btn_mid {
+    width: 250px;
+    border: none;
+    height: 95%;
+    background: #E8E8E8;
+    padding: 33px;
+}
+.btn_second {
+    width: 450px;
+    border: none;
+    height: 95%;
+    background: #E8E8E8;
+    padding: 33px;
+}
+.button_svich a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F2335;
+    text-align: center;
+}
